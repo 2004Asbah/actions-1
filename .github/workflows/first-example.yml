@@ -9,7 +9,7 @@ jobs:
         -  name: Checkout Repo
            uses: actions/checkout@v4
 
-        - name: List and aread Files
+        - name: List and read Files
           run: 
              echo "My first github actions job"
              ls -ltra
@@ -17,7 +17,7 @@ jobs:
 
 
         - name: Generate ASCII Artwork     
-          run:  cowsay -f dragon "Run for cover , I am a DRAGON....RAWR" >> dragon.txt
+          run:  cowsay -f dragon "Run for cover, I am a DRAGON....RAWR" >> dragon.txt
 
 
 
