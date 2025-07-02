@@ -4,7 +4,7 @@
     push
 
  jobs:
-    ascii-jobs:
+    ascii_jobs:
         runs-on: ubuntu-latest
         steps:
         - name: Checkout Repo
