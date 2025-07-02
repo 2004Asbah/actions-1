@@ -11,10 +11,10 @@
           uses: actions/checkout@v4
 
         - name: List Repo Files
-          run: ls -ltra
+          run:  ls -ltra
 
         - name: Executing Shell Script
-          run: |
+          run: | 
             chmod +x ascii-script.sh
             ./ascii-script.sh
 
